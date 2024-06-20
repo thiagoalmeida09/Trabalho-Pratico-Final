@@ -1,0 +1,39 @@
+ Classe Doacao:
+-Propriedades:
+tipo: Representa o tipo de doação (dinheiro, alimentos, roupas etc.).
+quantidade: Armazena a quantidade doada.
+data: Registra a data da doação.
+-Métodos:
+registrar_doacao(): Recebe os detalhes da doação e armazena-os no sistema.
+
+ Classe Doador:
+-Propriedades:
+nome: Nome do doador.
+doacoes: Lista de objetos Doacao associados ao doador.
+-Métodos:
+adicionar_doacao(doacao): Adiciona uma nova doação à lista do doador.
+
+ Classe SistemaDoacoes:
+-Propriedades:
+doacoes: Lista de todas as doações registradas.
+-Métodos:
+calcular_total(): Calcula o total de doações.
+gerar_relatorio(): Gera um relatório com informações sobre as doações.
+
+Relacionamentos:
+A classe Doador tem uma associação com a classe Doacao, representando que um doador pode fazer várias doações.
+A classe SistemaDoacoes gerencia todas as doações registradas.
+
+Exemplo de uso:
+
+Phyton
+# Criando um doador e registrando uma doação
+doador1 = Doador(nome="João")
+doacao1 = Doacao(tipo="Alimentos", quantidade=50, data="2024-06-20")
+doador1.adicionar_doacao(doacao1)
+
+# Calculando o total de doações
+sistema = SistemaDoacoes()
+sistema.doacoes.append(doacao1)
+total = sistema.calcular_total()
+print(f"Total de doações: R${total:.2f}")
