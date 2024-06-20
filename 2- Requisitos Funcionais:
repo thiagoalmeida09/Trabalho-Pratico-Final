@@ -1,0 +1,10 @@
+1. Receber Doações: O sistema deve ter uma tela de entrada onde os doadores possam informar os detalhes da doação, como o tipo (dinheiro, alimentos, roupas etc.), a quantidade e a data da doação.
+2. Calcular Total de Doações: O sistema deve ser capaz de somar todas as doações recebidas e apresentar o total em uma interface fácil de entender.
+3. Armazenar Informações de Doações: Todas as informações sobre as doações devem ser armazenadas em um banco de dados ou arquivo de texto. Isso permitirá que as informações sejam recuperadas e analisadas posteriormente.
+4. Visualizar Doações: O sistema deve permitir que os usuários visualizem todas as doações registradas, incluindo detalhes como tipo, quantidade e data.
+5. Editar Doações: Os usuários devem poder editar informações sobre doações existentes, como corrigir erros ou atualizar quantidades.
+6. Excluir Doações: O sistema deve permitir que os usuários excluam doações registradas, caso necessário.
+7. Relatórios de Doações: O sistema deve gerar relatórios periódicos (diários, semanais ou mensais) com informações sobre as doações recebidas, incluindo o total arrecadado e a distribuição por tipo.
+8. Notificações: O sistema pode enviar notificações aos doadores para agradecer pelas doações ou informar sobre a distribuição.
+9. Segurança: Garantir que as informações de doações sejam protegidas e acessíveis apenas por usuários autorizados.
+10. Interface Amigável: O sistema deve ter uma interface intuitiva e fácil de usar para incentivar a participação dos doadores.
